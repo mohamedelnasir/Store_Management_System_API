@@ -114,6 +114,7 @@ public class ProductService : IProductService
         product.Sku = dto.Sku;
         product.Barcode = dto.Barcode;
         product.BuyPrice = dto.BuyPrice;
+        product.Quantity=dto.Quantity;
         product.SellPrice = dto.SellPrice;
         product.LowStockThreshold = dto.LowStockThreshold;
         product.Description = dto.Description;

@@ -56,6 +56,8 @@ public class UpdateProductDto
     [Required, MaxLength(50)]
     public string Sku { get; set; } = string.Empty;
 
+        public int Quantity { get; set; }
+
     public string? Barcode { get; set; }
 
     [Range(0.01, double.MaxValue, ErrorMessage = "Buy price must be greater than 0.")]
